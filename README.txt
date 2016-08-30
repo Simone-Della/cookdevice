@@ -1,7 +1,7 @@
 COOK_DEVICE
 
 Author: Simone Dellabora
-email: simone.dellabora@gmail.com
+email: sdellab83@gmail.com
 Version:1.0
 
  Copyrigth "(C)"2016,  Simone Dellabora
