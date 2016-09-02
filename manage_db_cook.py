@@ -39,6 +39,7 @@ import MySQLdb
 import sys
 import os
 import re
+import getpass
 
 # Color for text
 GREEN =  '\033[32m'
@@ -57,7 +58,7 @@ def create_db():
     print RESET
 
     user = raw_input('user: ')
-    password  = raw_input('password: ')
+    password  = getpass.getpass('password: ')
     CONN = MySQLdb.connect(user=user, passwd=password)
     CUR = CONN.cursor()
 
@@ -112,7 +113,7 @@ def modify_table_db():
     file_add_in_table = sys.argv[2]
 
     user = raw_input('user: ')
-    password  = raw_input('password: ')
+    password  = getpass.getpass('password: ')
     CONN = MySQLdb.connect(user=user, passwd=password)
     CUR = CONN.cursor()
 
@@ -182,7 +183,7 @@ def list_table_db():
     print 'List all records of table'
 
     user = raw_input('user: ')
-    password  = raw_input('password: ')
+    password  = getpass.getpass('password: ')
     CONN = MySQLdb.connect(user=user, passwd=password)
     CUR = CONN.cursor()
 
@@ -242,7 +243,7 @@ def delete_row_in_table():
     print 'Delete record in table'
 
     user = raw_input('user: ')
-    password  = raw_input('password: ')
+    password  = getpass.getpass('password: ')
     CONN = MySQLdb.connect(user=user, passwd=password)
     CUR = CONN.cursor()
 
@@ -330,7 +331,7 @@ def delete_full_database():
     print "Delete the full Database from MySQL"
 
     user = raw_input('user: ')
-    password  = raw_input('password: ')
+    password  = getpass.getpass('password: ')
     CONN = MySQLdb.connect(user=user, passwd=password)
     CUR = CONN.cursor()
 
