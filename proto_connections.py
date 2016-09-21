@@ -34,4 +34,5 @@ def telnet_connections(ip_device):
 def ssh_connections(ip_device):
   username = raw_input('username: ')
   session = pexpect.spawn('ssh %s@%s' % (username, ip_device))
+  session.setwinsize(24, 180)
   session.interact()
