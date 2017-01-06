@@ -49,7 +49,7 @@ SERVER2,192.168.1.2,telnet
 
 - Run ./manage_db_cook.py for creating o modify database:
 
-run:
+run with options:
  ./manage_db_cook.py -c             (create and import .csv)
  ./manage_db_cook.py -m device.csv  (modify)
  ./manage_db_cook.py -l             (list records in table)
