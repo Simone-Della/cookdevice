@@ -20,6 +20,8 @@ Version:1.0
  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ###################################################################
+Instruction for linux os. 
+
 Description:
 
 Cook Device is a program that allows you to search within a database your devices
