@@ -59,3 +59,9 @@ run with options:
 - Modify configcook.cfg insert credentials, database and table created with manage-db-cook.
 
 - Run program cook_device.py for use to search and connect to your device.
+
+###################################################################
+
+Conclusion:
+I be happy if help me to develop new features for this application.
+thank you!
