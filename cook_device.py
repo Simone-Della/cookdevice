@@ -121,6 +121,10 @@ def main():
       print "\nexit"
   except NameError, e:
       print "%s, not found !" % userdate
+  except EOFError, e:
+      print "\nEOFError, exit"
+  except SyntaxError, e:
+      print "\nSyntaxError, exit"
 
 if __name__== '__main__':
   main()
