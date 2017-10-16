@@ -94,7 +94,7 @@ def search_ID_in_list_and_connect(search_ID):
         # verify where you try to connect
         print 'Connect to: ' + ip_device
         # condition which protocol use, view in coloumn session in db
-        if type_protocol == 'ssh':
+        if 'ssh' in type_protocol:
           proto_connections.ssh_connections(ip_device)
         else:
           proto_connections.telnet_connections(ip_device)
