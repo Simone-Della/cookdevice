@@ -64,6 +64,3 @@ run with options:
 
 ###################################################################
 
-Conclusion:
-I be happy if help me to develop new features for this application.
-thank you!
